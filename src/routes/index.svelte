@@ -3,7 +3,7 @@
 </script>
 
 <script lang="ts">
-	import Counter from '$lib/Counter.svelte';
+	let name: string = 'Juslin';
 </script>
 
 <svelte:head>
@@ -12,6 +12,6 @@
 
 <section>
 	<h1>
-		Juslin
+		Je suis {name} !
 	</h1>
 </section>
