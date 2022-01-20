@@ -11,7 +11,7 @@
 </svelte:head>
 
 <section>
-	<h1>
+	<h1 class="text-white">
 		Je suis {name} !
 	</h1>
 </section>
